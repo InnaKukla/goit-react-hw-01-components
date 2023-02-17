@@ -26,7 +26,6 @@ li {
     display: inline-grid;
     padding: 20px 10px;
     width: 60px;
-    background-color: blueviolet;
     color: white;
     box-shadow: -2px 1px 5px 0px lightslategrey;
 }
