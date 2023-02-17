@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const ProfileCard = styled.div`
     width: 300px;
     margin-right: 15px;
+    margin-left: 15px;
     text-align: center;
     border: 1px solid #F8F8FF;
     border-radius: 7px;
