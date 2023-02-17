@@ -18,16 +18,17 @@ export const StatisticsTitle = styled.h2`
     font-size: 25px;
     text-transform: uppercase;
 `
+
 export const StatList = styled.ul`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
-li {
-    display: inline-grid;
-    padding: 20px 10px;
-    width: 60px;
-    color: white;
-    box-shadow: -2px 1px 5px 0px lightslategrey;
+    li {
+        display: inline-grid;
+        padding: 20px 10px;
+        width: 60px;
+        color: white;
+        box-shadow: -2px 1px 5px 0px lightslategrey;
 }
 `
 
