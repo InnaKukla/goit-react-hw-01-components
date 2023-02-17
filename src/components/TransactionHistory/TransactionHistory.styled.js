@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const TransactionList = styled.table`
     font-size: 15px;
     margin-left: 15px;
+    margin-right: 15px;
     width: 450px;
     padding: 10px 0;
     text-align: center;
