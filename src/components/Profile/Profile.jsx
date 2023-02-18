@@ -1,14 +1,21 @@
 import PropTypes from 'prop-types';
-import { ProfileCard, ProfileDescription, ProfileAvatar, ProfileName, ProfileTag, ProfileLocation, StatsList, StatsListLabel, StatsQuantity } from './Profile.styled';
+import {
+  ProfileCard,
+  ProfileDescription,
+  ProfileAvatar,
+  ProfileName,
+  ProfileTag,
+  ProfileLocation,
+  StatsList,
+  StatsListLabel,
+  StatsQuantity,
+} from './Profile.styled';
 
-export const Profile = ({username, tag, location, avatar, stats}) => {
-    return (
+export const Profile = ({ username, tag, location, avatar, stats }) => {
+  return (
     <ProfileCard>
       <ProfileDescription>
-        <ProfileAvatar
-          src={avatar}
-          alt={username}
-        />
+        <ProfileAvatar src={avatar} alt={username} />
         <ProfileName>{username}</ProfileName>
         <ProfileTag>@{tag}</ProfileTag>
         <ProfileLocation>{location}</ProfileLocation>
@@ -29,9 +36,8 @@ export const Profile = ({username, tag, location, avatar, stats}) => {
         </li>
       </StatsList>
     </ProfileCard>
-    );
+  );
 };
-
 
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
@@ -42,5 +48,5 @@ Profile.propTypes = {
     followers: PropTypes.number.isRequired,
     views: PropTypes.number.isRequired,
     likes: PropTypes.number.isRequired,
-  })
-}
+  }),
+};
